@@ -1,7 +1,7 @@
 import praw
 import pandas as pd 
 
-reddit = praw.Reddit(client_id='8hTHhvTkxnldCeLFgYsbaQ',client_secret='UgxYKUsiefFICk9xKNScOIWoFdMbAw',username='lady_bou',password='gingrapefruitbaby',user_agent='d6')
+reddit = praw.Reddit(client_id='8hTHhvTkxnldCeLFgYsbaQ',client_secret='UgxYKUsiefFICk9xKNScOIWoFdMbAw',username='',password='',user_agent='d6')
 subreddit= reddit.subreddit('politics')
 hot_politics = subreddit.hot(limit=500) #time_filter="all"
 
